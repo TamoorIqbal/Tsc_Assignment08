@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h2>Typescript Assignment 8</h2>
+
+<div class="warpper">
+
+ <input class="radio" id="one" name="group" type="radio" checked>
+  <input class="radio" id="two" name="group" type="radio">
+  <input class="radio" id="three" name="group" type="radio">
+  <input class="radio" id="three1" name="group" type="radio">
+  <input class="radio" id="three2" name="group" type="radio">
+  <input class="radio" id="three3" name="group" type="radio">
+  <input class="radio" id="three4" name="group" type="radio">
+  <input class="radio" id="three5" name="group" type="radio">
+  <input class="radio" id="three6" name="group" type="radio">
+  <!-- part two  -->
+  <input class="radio" id="three7" name="group" type="radio">
+  <input class="radio" id="three8" name="group" type="radio">
+  <input class="radio" id="three9" name="group" type="radio">
+  <input class="radio" id="three10" name="group" type="radio">
+  <input class="radio" id="three11" name="group" type="radio">
+  <input class="radio" id="three12" name="group" type="radio">
+  <input class="radio" id="three13" name="group" type="radio">
+  <input class="radio" id="three14" name="group" type="radio">
+
+
+  <div class="tabs">
+  <label class="tab" id="one-tab" for="one">1</label>
+  <label class="tab" id="two-tab" for="two">2</label>
+  <label class="tab" id="three-tab" for="three">3</label>
+  <label class="tab" id="three-tab1" for="three1">4</label>
+  <label class="tab" id="three-tab2" for="three2">5</label>
+  <label class="tab" id="three-tab3" for="three3">6</label>
+  <label class="tab" id="three-tab4" for="three4">7</label>
+  <label class="tab" id="three-tab5" for="three5">8</label>
+  <label class="tab" id="three-tab6" for="three6">9</label>
+  <!-- part two  -->
+  <!-- <label class="tab" id="three-tab7" for="three7">10</label>
+  <label class="tab" id="three-tab8" for="three8">11</label>
+  <label class="tab" id="three-tab9" for="three9">12</label>
+  <label class="tab" id="three-tab10" for="three10">13</label> -->
+  
+</div>
+
+
+
+  <div class="panels">
+
+    <div class="panel" id="one-panel">
+    <div class="panel-title">1. Write a ts program to read and print elements of array.</div>
+            <h4 id="Question1Ans"></h4>
+            <button onclick="Qu1()" id="a"><span>Run ...</span></button>
+          </div>
+
+
+    <div class="panel" id="two-panel">
+    <div class="panel-title">2. Write a ts program to print all negative elements in an array.</div>
+    <h4 id="Question2Ans"></h4>
+    <button onclick="Qu2()" id="a"><span>Run ...</span></button>
+
+  </div>
+
+
+
+    <div class="panel" id="three-panel">
+      <div class="panel-title">3. Write a ts program to find sum of all array elements. </div>
+      <h4 id="Question3Ans"></h4>
+      <button onclick="Qu3()" id="a"><span>Run ...</span></button>
+    </div>
+
+
+    <div class="panel" id="three-panel1">
+        <div class="panel-title">4. Write a ts program to find maximum and minimum element in an array.</div>
+       
+        <h4 id="Question4Ans"></h4>
+        <br>
+        <button onclick="Qu4()" id="a"><span>Run ...</span></button>
+      
+      </div>
+
+
+      <div class="panel" id="three-panel2">
+        <div class="panel-title">5. Write a ts program to find second largest element in an array.</div>
+        <h4 id="Question5Ans"></h4>
+        <br>
+        <button onclick="Qu5()" id="a"><span>Run ...</span></button>
+      </div>
+
+      <div class="panel" id="three-panel3">
+        <div class="panel-title">6. Write a ts program to count total number of even and odd elements in an array.</div>
+        <h4 id="Question6Ans"></h4>
+        <br>
+        <button onclick="Qu6()" id="a"><span>Run ...</span></button>
+      </div>
+
+      <div class="panel" id="three-panel4">
+        <div class="panel-title">7. Write a ts program to count total number of negative elements in an array.</div>
+        <h4 id="Question7Ans"></h4>
+        <br>
+        <button onclick="Qu7()" id="a"><span>Run ...</span></button>
+      </div>
+
+      <div class="panel" id="three-panel5">
+        <div class="panel-title">8. Write a ts program to copy all elements from an array to another array.</div>
+        <h4 id="Question8Ans"></h4>
+        <br>
+        <button onclick="Qu8()" id="a"><span>Run ...</span></button>
+      </div>
+
+      <div class="panel" id="three-panel6">
+        <div class="panel-title">9. Write a ts program to insert an element in an array. </div>
+        <h4 id="Question9Ans"></h4>
+        <br>
+        <button onclick="Qu9()" id="a"><span>Run ...</span></button>
+      </div>
+
+
+      <!-- part two  -->
+
+      <div class="panel" id="three-panel7">
+        <div class="panel-title">10. Write a ts program to delete an element from an array at specified position. </div>
+        <h4 id="Question10Ans"></h4>
+        <br>
+        <button onclick="Qu10()" id="a"><span>Run ...</span></button>
+      </div>
+
+      <div class="panel" id="three-panel8">
+        <div class="panel-title">11. Write a ts program to count frequency of each element in an array. </div>
+        <h4 id="Question11Ans"></h4>
+        <br>
+        <button onclick="Qu11()" id="a"><span>Run ...</span></button>
+      </div>
+
+      <div class="panel" id="three-panel9">
+        <div class="panel-title">12. Write a ts program to print all unique elements in the array. </div>
+        <h4 id="Question12Ans"></h4>
+        <br>
+        <button onclick="Qu12()" id="a"><span>Run ...</span></button>
+      </div>
+
+      <div class="panel" id="three-panel10">
+        <div class="panel-title">13. Write a ts program to count total number of duplicate elements in an array. </div>
+        <h4 id="Question13Ans"></h4>
+        <br>
+        <button onclick="Qu13()" id="a"><span>Run ...</span></button>
+      </div>
+      
+      <div class="panel" id="three-panel11">
+        <div class="panel-title">13. Write a ts program to count total number of duplicate elements in an array. </div>
+        <h4 id="Question14Ans"></h4>
+        <br>
+        <button onclick="Qu14()" id="a"><span>Run ...</span></button>
+      </div>
+
+      <div class="panel" id="three-panel12">
+        <div class="panel-title">14. Write a ts program to delete all duplicate elements from an array. </div>
+        <h4 id="Question15Ans"></h4>
+        <br>
+        <button onclick="Qu15()" id="a"><span>Run ...</span></button>
+      </div>
+
+      <div class="panel" id="three-panel13">
+        <div class="panel-title">15. Write a ts program to merge two array to third array. </div>
+        <h4 id="Question16Ans"></h4>
+        <br>
+        <button onclick="Qu16()" id="a"><span>Run ...</span></button>
+      </div>
+
+      <div class="panel" id="three-panel14">
+        <div class="panel-title">16. Write a ts program to find reverse of an array. </div>
+        <h4 id="Question16Ans"></h4>
+        <br>
+        <button onclick="Qu16()" id="a"><span>Run ...</span></button>
+      </div>
+     
+
+    
+
+    
+
+  </div>
+  <div class="tabs">
+    <label class="tab" id="three-tab7" for="three7">10</label>
+  <label class="tab" id="three-tab8" for="three8">11</label>
+  <label class="tab" id="three-tab9" for="three9">12</label>
+  <label class="tab" id="three-tab10" for="three10">13</label>
+  <label class="tab" id="three-tab11" for="three11">14</label>
+  <label class="tab" id="three-tab12" for="three12">15</label>
+  <label class="tab" id="three-tab13" for="three13">16</label>
+  <label class="tab" id="three-tab14" for="three14">17</label>
+  <!-- <label class="tab" id="three-tab10" for="three10">13</label> -->
+  </div>
+   
+</div>
+
+
+<script src="app.js"></script>
+
+</body>
+
+</html>

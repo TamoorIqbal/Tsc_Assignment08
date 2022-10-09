@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,700&display=swap');
+body{
+  background:#9e9e9e;
+  font-family: 'Arimo', sans-serif;
+}
+h2{
+  color:#000;
+  text-align:center;
+  font-size:2em;
+}
+.warpper{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tab{
+  cursor: pointer;
+  padding:10px 20px;
+  margin:0px 2px;
+  background:#000;
+  display:inline-block;
+  color:#fff;
+  border-radius:3px 3px 0px 0px;
+  box-shadow: 0 0.5rem 0.8rem #00000080;
+  margin-bottom: .5rem;
+}
+.panels{
+  background:#fffffff6;
+  box-shadow: 0 2rem 2rem #00000080;
+  min-height:200px;
+  width:100%;
+  max-width:500px;
+  border-radius:3px;
+  overflow:hidden;
+  padding:20px;  
+}
+.panel{
+  display:none;
+  animation: fadein .8s;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+.panel-title{
+  font-size:1.5em;
+  font-weight:bold;
+  color: #037ef3;
+}
+.radio{
+  display:none;
+}
+#one:checked ~ .panels #one-panel,
+#two:checked ~ .panels #two-panel,
+#three:checked ~ .panels #three-panel,
+#three1:checked ~ .panels #three-panel1,
+#three2:checked ~ .panels #three-panel2,
+#three3:checked ~ .panels #three-panel3,
+#three4:checked ~ .panels #three-panel4,
+#three5:checked ~ .panels #three-panel5,
+#three6:checked ~ .panels #three-panel6,
+#three7:checked ~ .panels #three-panel7,
+#three8:checked ~ .panels #three-panel8,
+#three9:checked ~ .panels #three-panel9,
+#three10:checked ~ .panels #three-panel10,
+#three11:checked ~ .panels #three-panel11,
+#three12:checked ~ .panels #three-panel12,
+#three13:checked ~ .panels #three-panel13,
+#three14:checked ~ .panels #three-panel14
+
+
+{
+  display:block
+}
+#one:checked ~ .tabs #one-tab,
+#two:checked ~ .tabs #two-tab,
+#three:checked ~ .tabs #three-tab,
+#three1:checked ~ .tabs #three-tab1,
+#three2:checked ~ .tabs #three-tab2,
+#three3:checked ~ .tabs #three-tab3,
+#three4:checked ~ .tabs #three-tab4,
+#three5:checked ~ .tabs #three-tab5,
+#three6:checked ~ .tabs #three-tab6,
+#three7:checked ~ .tabs #three-tab7,
+#three8:checked ~ .tabs #three-tab8,
+#three9:checked ~ .tabs #three-tab9,
+#three10:checked ~ .tabs #three-tab10,
+#three11:checked ~ .tabs #three-tab11,
+#three12:checked ~ .tabs #three-tab12,
+#three13:checked ~ .tabs #three-tab13,
+#three14:checked ~ .tabs #three-tab14
+
+{
+  background:#fffffff6;
+  color:#000;
+  border-top: 3px solid #000;
+}
+
+/* -----------------  */
+
+  
+#a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #a span{
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+  }
+  
+  #a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #ff003b;
+    /* background: #6a67ce; */
+    transition: all .35s;
+  }
+  
+  #a:hover{
+    color: #fff;
+  }
+  
+  #a:hover:after{
+    width: 100%;
+  }
+  h2{
+    color: #037ef3
+  }
+h4{
+  color: #ee6123;
+}
